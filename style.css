@@ -1,2 +1,26 @@
+#selfie {
+  width: 150px;
+  height: 150px;
+}
+
+#selfie {
+  padding-top: 20px;
+}
+
 h1 {
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+portfolio {
+  color: black;
+}
+
+about {
+  color: black;
 }
