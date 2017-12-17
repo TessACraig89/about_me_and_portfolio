@@ -1,17 +1,22 @@
-.header {
-
-}
-
 .mainImg {
 
 }
 
 .name {
+  position: relative;
+  bottom: 245px;
+  right: 15px;
+}
 
+.divider {
+  border-top: 5px solid teal;
+  position: relative;
+  bottom: 75px;
 }
 
 .aboutMeTitle {
-
+  position: relative;
+  bottom: 70px;
 }
 
 .aboutMeP {
@@ -19,23 +24,34 @@
 }
 
 .selfie {
-
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: 0px;
+  right: 150px;
 }
 
 .linkImg {
-
+  position: relative;
+  z-index: 0;
+  left: 165px;
 }
 
-.portfolioLink {
-
+.divider2 {
+  border-top: 5px solid teal;
+  position: relative;
+  bottom: 20px;
 }
 
 .linkedin {
-
+  position: relative;
+  right: 175px;
 }
 
 .github {
-
+  position: relative;
+  left: 175px;
+  bottom: 22px;
 }
 
 .portfolioTitle {
@@ -55,11 +71,16 @@
 }
 
 .portfolioImg {
-  
+
 }
 
 .portfolioLink {
-
+  position: relative;
+  z-index: 1;
+  font-size: 20px;
+  display: flex;
+  left: 455px;
+  bottom: 192px;
 }
 
 .aboutMeLink {
