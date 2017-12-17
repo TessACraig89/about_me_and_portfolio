@@ -1,11 +1,12 @@
-.mainImg {
-
+main {
+  font-family: 'Work Sans', sans-serif;
 }
 
 .name {
   position: relative;
   bottom: 245px;
   right: 15px;
+  font-family: 'Berkshire Swash', cursive;
 }
 
 .divider {
@@ -27,14 +28,15 @@
   width: 200px;
   height: 200px;
   position: relative;
-  top: 0px;
-  right: 150px;
+  top: 250px;
+  right: 300px;
 }
 
 .linkImg {
   position: relative;
   z-index: 0;
-  left: 165px;
+  left: 300px;
+  top: 30px;
 }
 
 .divider2 {
@@ -46,16 +48,21 @@
 .linkedin {
   position: relative;
   right: 175px;
+  font-size: 20px;
+  color: black;
 }
 
 .github {
   position: relative;
   left: 175px;
-  bottom: 22px;
+  bottom: 26px;
+  font-size: 20px;
+  color: black;
 }
 
 .portfolioTitle {
-
+  position: relative;
+  bottom: 70px;
 }
 
 .experience {
@@ -78,11 +85,20 @@
   position: relative;
   z-index: 1;
   font-size: 20px;
-  display: flex;
-  left: 455px;
-  bottom: 192px;
+  display: inline-flex;
+  left: 150px;
+  bottom: 10px;
+  color: teal;
+  font-family: 'Berkshire Swash', cursive;
 }
 
 .aboutMeLink {
-
+  position: relative;
+  z-index: 1;
+  font-size: 20px;
+  display: inline-flex;
+  left: 150px;
+  bottom: 10px;
+  color: teal;
+  font-family: 'Berkshire Swash', cursive;
 }
