@@ -1,38 +1,67 @@
-#selfie {
-  width: 150px;
-  height: 150px;
+.header {
+
 }
 
-#selfie {
-  padding-top: 20px;
-}
+.mainImg {
 
-body {
-  font-family: 'Domine', serif;
-}
-
-#header {
-  position: relative;;
-  text-align: center;
-  color: white;
 }
 
 .name {
-  position: absolute;
-  top: 50%px;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
 }
 
-nav {
-  padding-top: 20px;
-  font-size: 30px;
+.aboutMeTitle {
+
 }
 
-#portfolio {
-  color: black;
+.aboutMeP {
+
 }
 
-#about {
-  color: black;
+.selfie {
+
+}
+
+.linkImg {
+
+}
+
+.portfolioLink {
+
+}
+
+.linkedin {
+
+}
+
+.github {
+
+}
+
+.portfolioTitle {
+
+}
+
+.experience {
+
+}
+
+.experienceP {
+
+}
+
+.project {
+
+}
+
+.portfolioImg {
+  
+}
+
+.portfolioLink {
+
+}
+
+.aboutMeLink {
+
 }
