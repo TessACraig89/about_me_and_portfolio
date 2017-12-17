@@ -11,9 +11,17 @@ body {
   font-family: 'Domine', serif;
 }
 
-h1 {
-  font-size: 50px;
-  font-family: 'Domine', serif;
+#header {
+  position: relative;;
+  text-align: center;
+  color: white;
+}
+
+.name {
+  position: absolute;
+  top: 50%px;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 nav {
@@ -21,10 +29,10 @@ nav {
   font-size: 30px;
 }
 
-portfolio {
+#portfolio {
   color: black;
 }
 
-about {
+#about {
   color: black;
 }
