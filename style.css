@@ -42,7 +42,7 @@ main {
   position: relative;
   z-index: 0;
   right: 300px;
-  bottom: 765px;
+  bottom: 800px;
 }
 
 .linkImgPortfolio {
@@ -154,7 +154,7 @@ main {
   font-size: 20px;
   display: inline-flex;
   right: 450px;
-  bottom: 800px;
+  bottom: 840px;
   color: teal;
   font-family: 'Berkshire Swash', cursive;
 }
