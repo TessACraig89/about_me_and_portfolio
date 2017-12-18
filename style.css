@@ -34,7 +34,7 @@ main {
   width: 200px;
   height: 200px;
   position: relative;
-  bottom: 200px;
+  bottom: 500px;
   left: 310px;
 }
 
@@ -49,11 +49,18 @@ main {
   position: relative;
   z-index: 0;
   left: 350px;
-  bottom: 300px;
+  bottom: 540px;
   z-index: 0;
 }
 
-.divider2 {
+.footerDivider1 {
+  border-top: 5px solid teal;
+  position: relative;
+  bottom: 600px;
+  z-index: 1;
+}
+
+.footerDivider2 {
   border-top: 5px solid teal;
   position: relative;
   bottom: 490px;
@@ -65,13 +72,13 @@ main {
   right: 20px;
   font-size: 20px;
   color: black;
-  bottom: 285px;
+  bottom: 525px;
 }
 
 .githubAbout {
   position: relative;
   left: 300px;
-  bottom: 310px;
+  bottom: 550px;
   font-size: 20px;
   color: black;
 }
@@ -136,7 +143,7 @@ main {
   font-size: 20px;
   display: inline-flex;
   left: 200px;
-  bottom: 335px;
+  bottom: 580px;
   color: teal;
   font-family: 'Berkshire Swash', cursive;
 }
@@ -163,7 +170,7 @@ main {
 .arrowImgAbout {
   position: relative;
   right: 300px;
-  bottom: 170px;
+  bottom: 405px;
 }
 
 .arrowImgPortfolio {
@@ -173,7 +180,7 @@ main {
 }
 
 .smallDivider {
-	background-color: #fff;
+	background-color:white;
 	border-top: 5px dotted teal;
   position: relative;
   top: 20px;
