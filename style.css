@@ -56,11 +56,11 @@ main {
 .divider2 {
   border-top: 5px solid teal;
   position: relative;
-  bottom: 450px;
+  bottom: 490px;
   z-index: 1;
 }
 
-.linkedin {
+.linkedinAbout {
   position: relative;
   right: 20px;
   font-size: 20px;
@@ -68,10 +68,26 @@ main {
   bottom: 285px;
 }
 
-.github {
+.githubAbout {
   position: relative;
   left: 300px;
   bottom: 310px;
+  font-size: 20px;
+  color: black;
+}
+
+.linkedinPortfolio {
+  position: relative;
+  right: 330px;
+  font-size: 20px;
+  color: black;
+  bottom: 430px;
+}
+
+.githubPortfolio {
+  position: relative;
+  left: 100px;
+  bottom: 520px;
   font-size: 20px;
   color: black;
 }
@@ -86,7 +102,7 @@ main {
 .experience {
   font-size: 35px;
   position: relative;
-  right: 50px;
+  right: 60px;
   top: 20px;
   z-index: 1;
 }
@@ -95,18 +111,23 @@ main {
   font-size:  30px;
   top: 30px;
   position: relative;
-  right: 175px;
+  right: 220px;
   z-index: 1;
 }
 
 .project {
-
+  font-size: 35px;
+  position: relative;
+  left: 400px;
+  bottom: 335px;
+  z-index: 1;
 }
 
 .portfolioImg {
   position: relative;
   width: 400px;
-  left: 400px
+  left: 100px;
+  top: 20px;
 }
 
 .portfolioLink {
@@ -133,9 +154,9 @@ main {
 
 .projectLink {
   position: relative;
-  right: 550px;
-  top: 200px;
-  color: black;
+  right: 250px;
+  top: 155px;
+  color: teal;
   font-size: 20px;
 }
 
@@ -147,8 +168,8 @@ main {
 
 .arrowImgPortfolio {
   position: relative;
-  right: 300px;
-  bottom: 170px;
+  left: 250px;
+  bottom: 510px;
 }
 
 .smallDivider {
@@ -156,6 +177,15 @@ main {
 	border-top: 5px dotted teal;
   position: relative;
   top: 20px;
-  right: 50px;
+  right: 60px;
+  width: 300px;
+}
+
+.smallDivider2 {
+	background-color: #fff;
+	border-top: 5px dotted teal;
+  position: relative;
+  top: 0px;
+  right: 0px;
   width: 300px;
 }
