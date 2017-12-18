@@ -48,3 +48,11 @@ $(".githubPortfolio").hover(function() {
 $(".githubPortfolio").mouseleave(function() {
   $( this ).css("color", "black");
 });
+
+$(".projectLink").hover(function() {
+  $( this ).css("color", "red");
+});
+
+$( ".projectLink").mouseleave(function() {
+  $( this ).css("color", "teal");
+});
