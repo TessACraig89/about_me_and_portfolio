@@ -1,3 +1,6 @@
+// adds hover event to link that changes color to red
+//adds mouseleave event to link that changes color back to original
+
 $(".aboutMeLink").hover(function() {
   $( this ).css("color", "red");
 });
