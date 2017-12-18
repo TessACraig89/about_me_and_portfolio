@@ -35,14 +35,15 @@ main {
 .linkImg {
   position: relative;
   z-index: 0;
-  left: 300px;
-  top: 30px;
+  left: 400px;
+  top: 20px;
 }
 
 .divider2 {
   border-top: 5px solid teal;
   position: relative;
   bottom: 20px;
+  z-index: 1;
 }
 
 .linkedin {
@@ -58,6 +59,7 @@ main {
   bottom: 26px;
   font-size: 20px;
   color: black;
+  z-index: 1;
 }
 
 .portfolioTitle {
@@ -86,8 +88,8 @@ main {
   z-index: 1;
   font-size: 20px;
   display: inline-flex;
-  left: 150px;
-  bottom: 10px;
+  left: 250px;
+  bottom: 15px;
   color: teal;
   font-family: 'Berkshire Swash', cursive;
 }
@@ -97,8 +99,8 @@ main {
   z-index: 1;
   font-size: 20px;
   display: inline-flex;
-  left: 150px;
-  bottom: 10px;
+  left: 250px;
+  bottom: 15px;
   color: teal;
   font-family: 'Berkshire Swash', cursive;
 }
