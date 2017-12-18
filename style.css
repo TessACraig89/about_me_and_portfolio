@@ -12,24 +12,30 @@ main {
 .divider {
   border-top: 5px solid teal;
   position: relative;
-  bottom: 75px;
+  bottom: 100px;
+  z-index: 1;
 }
 
 .aboutMeTitle {
   position: relative;
-  bottom: 70px;
+  bottom: 30px;
+  font-size: 50px;
+  right: 300px;
 }
 
 .aboutMeP {
-
+  font-size:  30px;
+  top: 10px;
+  position: relative;
+  right: 200px;
 }
 
 .selfie {
   width: 200px;
   height: 200px;
   position: relative;
-  top: 250px;
-  right: 300px;
+  bottom: 200px;
+  left: 310px;
 }
 
 .linkImg {
@@ -39,27 +45,35 @@ main {
   top: 20px;
 }
 
+.linkImgPortfolio {
+  position: relative;
+  z-index: 0;
+  left: 350px;
+  bottom: 300px;
+  z-index: 0;
+}
+
 .divider2 {
   border-top: 5px solid teal;
   position: relative;
-  bottom: 20px;
+  bottom: 350px;
   z-index: 1;
 }
 
 .linkedin {
   position: relative;
-  right: 175px;
+  right: 20px;
   font-size: 20px;
   color: black;
+  bottom: 285px;
 }
 
 .github {
   position: relative;
-  left: 175px;
-  bottom: 26px;
+  left: 300px;
+  bottom: 310px;
   font-size: 20px;
   color: black;
-  z-index: 1;
 }
 
 .portfolioTitle {
@@ -80,7 +94,9 @@ main {
 }
 
 .portfolioImg {
-
+  position: relative;
+  width: 400px;
+  right: 200px
 }
 
 .portfolioLink {
@@ -88,8 +104,8 @@ main {
   z-index: 1;
   font-size: 20px;
   display: inline-flex;
-  left: 250px;
-  bottom: 15px;
+  left: 200px;
+  bottom: 335px;
   color: teal;
   font-family: 'Berkshire Swash', cursive;
 }
@@ -103,4 +119,22 @@ main {
   bottom: 15px;
   color: teal;
   font-family: 'Berkshire Swash', cursive;
+}
+
+.projectLink {
+  position: relative;
+  right: 550px;
+  top: 200px;
+  color: black;
+  font-size: 20px;
+}
+
+.arrowImgAbout {
+  position: relative;
+  right: 300px;
+  bottom: 170px;
+}
+
+.arrowImgPortfolio {
+  transform: roatate(180deg);
 }
