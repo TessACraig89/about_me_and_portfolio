@@ -9,40 +9,44 @@
   </head>
   <body class="container-fluid full-width">
     <header id="header" class='row justify-content-center'>
-      <img id='mainImg' class="col-6" src='images/header.jpg'>
+      <img id='mainImg' src='images/header.jpg'>
       <h1 class='name'>Tess<br> Craig</h1>
       <a class='linkedinPortfolio' href="https://www.linkedin.com/in/tessashleycraig/">Linkedin</a><br>
       <a class='githubPortfolio' href="https://github.com/TessACraig89">GitHub</a>
-      <div class='divider'></div>
+      <div class='headerDivider'></div>
     </header>
     <main>
-       <h3 class='portfolioTitle'>Portfolio</h3>
-        <div class="row">
-        <section id="psyche-tracker" class='col-4'>
-          <a href="https://psyche-tracker.firebaseapp.com/" class="pyscheTrackerTitleLink">Psyche Tracker</a>
-          <div id="psycheTrackerDivider" class='smallDivider2'></div>
-          <img id='psycheTrackerImg' class="projectImg" src='images/psyche-tracker.png'></img>
-          <p id="psycheTrackerDescription" class="projectDescription">Psyche Tracker is a personal logger and tracker for one's emotional and mental health.</p>
-          <p id="psycheTrackerTechnologies" class="techList">Technologies:<br></br>
-            <ul id="psycheTrackerTech">
-              <li><a href="https://firebase.google.com/">Firebase</a></li>
-              <li><a href="https://reactjs.org/">React</a></li>
-              <li><a href="https://reacttraining.com/react-router/web/guides/philosophy">React Router</a></li>
-              <li><a href="https://www.javascript.com/">Javascript</a></li>
-              <li><a href="https://reactjs.org/docs/introducing-jsx.html">JSX</a></li>
-              <li><a href="http://www.css3.info/">CSS3</a>
-              <li><a href="https://getbootstrap.com/">Bootstrap4</a>
-            </ul>
-          </p>
-          <a id='psycheTrackerGithubLink' href='https://github.com/TessACraig89/psyche-tracker'>Github</a>
-        </section>
-         <section id="star-trek" class='col-4'>
-          <a href="https://tessacraig89.github.io/star_trek_quote_matching_game/">Star Trek Quote Matching Game</a>
-          <div class='smallDivider2'></div>
-          <img class='portfolioImg' src='images/star-trek.png'></img>
-          <p class="description">A single player game in which the user is presented a quote and 3 cards containing a character's image and name. The goal of the game is to match the quote to the correct character in the three turns provided.</p>
-          <p class="technologies">Technologies:
-            <ul>
+       <h2 class='portfolioTitle'>Portfolio</h2>
+        <div class="row justify-content-left">
+          <section id="psyche" class='col-4'>
+            <a href="https://psyche-tracker.firebaseapp.com/" id="pyscheTitleLink" class="titleLink">Psyche Tracker</a>
+            <div id="psycheDivider" class='smallDivider'></div>
+            <img src='images/psyche-tracker.png' id='psycheImg' class="projectImg"></img>
+            <p id="psycheDescription" class="description">Psyche Tracker is a personal logger and tracker for one's emotional and mental health.</p>
+            <p id="psycheTech" class="tech">
+              <span id="psycheTechTitle" class="techTitle">Technologies:</span><br></br>
+              <ul id="psycheTechList" class="techList">
+                <li><a href="https://firebase.google.com/">Firebase</a></li>
+                <li><a href="https://reactjs.org/">React</a></li>
+                <li><a href="https://reacttraining.com/react-router/web/guides/philosophy">React Router</a></li>
+                <li><a href="https://www.javascript.com/">Javascript</a></li>
+                <li><a href="https://reactjs.org/docs/introducing-jsx.html">JSX</a></li>
+                <li><a href="http://www.css3.info/">CSS3</a>
+                <li><a href="https://getbootstrap.com/">Bootstrap4</a>
+              </ul>
+            </p>
+            <a id='psycheGithubLink' class="projectGithubLink" href='https://github.com/TessACraig89/psyche-tracker'>Github</a>
+          </section>
+        </div>
+        <div class="row justify-content-right">
+          <section id="starTrek" class='col-4'>
+          <a href="https://tessacraig89.github.io/star_trek_quote_matching_game/" id="starTrekTitleLink" class="titleLink">Star Trek Quote Matching Game</a>
+          <div id="starTrekDivider" class='smallDivider'></div>
+          <img src='images/star-trek.png' id="starTrekImg" class='projectImg'></img>
+          <p id="starTrekDescription" class="description">A single player game in which the user is presented a quote and 3 cards containing a character's image and name. The goal of the game is to match the quote to the correct character in the three turns provided.</p>
+          <p id="starTrekTech" class="tech">
+            <span id="starTrekTechTitle" class="techTitle">Technologies:</span><br></br>
+            <ul id="starTrekTechList" class="techList">
               <li><a href="https://www.javascript.com/">Javascript</a></li>
               <li><a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5">HTML5</a></li>
               <li><a href="http://www.css3.info/">CSS3</a></li>
@@ -50,15 +54,18 @@
               <li><a href="https://getbootstrap.com/">Bootstrap4</a></li>
             </ul>
           </p>
-           <a class='projectGithubLink' href='https://github.com/TessACraig89/star_trek_quote_matching_game'>Github</a>
-         </section>
-         <section id="neighborful" class='col-4'>
-          <a href="https://neighborful-demo.herokuapp.com/">Neighborful</a>
-          <div class='smallDivider2'></div>
-          <img class='portfolioImg' src='images/neighborful.png'></img>
-          <p class="description">Neighborhood produce exchange, where neighbors grow and share fresh produce with other neighbors.</p>
-          <p class="technologies">Technologies:
-            <ul>
+            <a id="starTrekGithubLink" class='projectGithubLink' href='https://github.com/TessACraig89/star_trek_quote_matching_game'>Github</a>
+          </section>
+        </div>
+        <div class="row justify-content-left">
+          <section id="neighborful" class='col-4'>
+          <a href="https://neighborful-demo.herokuapp.com/" id="neighborfulTitleLink" class="titleLink">Neighborful</a>
+          <div id="neighborfulDivider" class='smallDivider'></div>
+          <img src='images/neighborful.png' id="neighborfulImg" class='projectImg'></img>
+          <p id="neighborfulDescription" class="description">Neighborhood produce exchange, where neighbors grow and share fresh produce with other neighbors.</p>
+          <p id="neighborfulTech" class="tech">
+            <span id="neighborfulTechTitle" class="techTitle">Technologies:</span><br></br>
+            <ul id="neighborfulTechList" class="techList">
               <li><a href="https://www.djangoproject.com/">Django</a></li>
               <li><a href="https://www.python.org/">Python</a></li>
               <li><a href="http://www.css3.info/">CSS3</a></li>
@@ -66,18 +73,20 @@
               <li><a href="https://developers.google.com/maps/">Google Maps API</a></li>
             </ul>
           </p>
-          <a class='projectGithubLink' href='https://github.com/njang/neighborful'>Github</a>
-          <p>Developed with <a href="https://www.linkedin.com/in/neojang/">Neo Jang</a> and <a href="https://www.linkedin.com/in/aleena-madni/">Aleena Madni</a></p>
-          <p>My Contributions: Design, Templates & Agile Project Development</p>
-         </section>
+          <a id="neighborfulGithub" class='projectGithubLink' href='https://github.com/njang/neighborful'>Github</a>
+          <p id="neighborfulDevelopers">Developed with <a href="https://www.linkedin.com/in/neojang/">Neo Jang</a> and <a href="https://www.linkedin.com/in/aleena-madni/">Aleena Madni</a></p>
+          <p id="neighborfulContributions">My Contributions: Design, Templates & Agile Project Development</p>
+          </section>
+        </div>
     </main>
-    <footer>
-      <div class='footerDivider2'></div>
-      <a class='linkedinPortfolio' href="https://www.linkedin.com/in/tessashleycraig/">Linkedin</a><br>
-      <a class='githubPortfolio' href="https://github.com/TessACraig89">GitHub</a>
-      <img class='arrowImgPortfolio' src='images/arrow2.jpg'>
-    </footer>
-    </div>
+    <!-- <div class="row justify-content-center">
+      <footer>
+        <div class='footerDivider2'></div>
+        <a class='linkedinPortfolio' href="https://www.linkedin.com/in/tessashleycraig/">Linkedin</a><br>
+        <a class='githubPortfolio' href="https://github.com/TessACraig89">GitHub</a>
+        <img class='arrowImgPortfolio' src='images/arrow2.jpg'>
+      </footer>
+    </div> -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script type="text/javascript"src="app.js"></script>
   </body>
